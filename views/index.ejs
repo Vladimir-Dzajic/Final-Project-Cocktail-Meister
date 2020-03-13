@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cocktail Meister</title>
+    <link type="text/css" rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <p>Hi <%= name %>! Welcome to Cocktail Meister!</p>
+      <a><img id="close" src="img/x.png" alt=""></a>
+    </div>
+    <nav>
+      <a href="/">
+        <img src="img/logo.png" alt="logo">
+        <h1>Cocktail Meister</h1>
+      </a>
+      </nav>
+  </header>
+  <main>
+    <article>  
+      <section id="search-section">
+          <input href="cat-result-page.html?par=search" type="text" id="search" placeholder="Search by Cocktail Name" autoComplete="on">
+          <a href="#" id="button"><img src="img/glass1.png" alt=""></a>
+          <ul id="suggestions">
+          </ul>
+      </section>
+      <section id="cocktail-names">
+        <h2>Top 6 Categories</h2>
+        <ul>
+          <li id="vodka"><a href="cat-result-page.html?par=vodka"><img src="img/vodka_o.png" alt="Vodka">Vodka</a></li>
+          <li id="tequila"><a href="cat-result-page.html?par=tequila"><img src="img/tequila_o.png" alt="Tequila">Tequila</a></li>
+          <li id="whiskey"><a href="cat-result-page.html?par=whiskey"><img src="img/whiskey_o.png" alt="Whiskey">Whiskey</a></li>
+          <li id="rum"><a href="cat-result-page.html?par=rum"><img src="img/rum_o.png" alt="Rum">Rum</a></li>
+          <li id="gin"><a href="cat-result-page.html?par=gin"><img src="img/gin_o.png" alt="Gin">Gin</a></li>
+          <li id="non-alcholic"><a href="cat-result-page.html?par=Non Alcoholic"><img src="img/orange_o.png" alt="Gin">Non Alcholic</a></li>
+        </ul>
+      </section>
+      <section id="results">
+        <h2>Top Ten Popular Cocktails</h2>
+        <div id="cocktail-results">
+            <p><a href="cocktail-details.html?par=11993"><img alt="" src="https://www.thecocktaildb.com/images/media/drink/spxtqp1478963398.jpg/preview">Qeuntin</a></p>
+            <p><a href="cocktail-details.html?par=11728"><img alt="" src="https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg/preview">Martini</a></p>
+            <p><a href="cocktail-details.html?par=13621"><img alt="" src="https://www.thecocktaildb.com/images/media/drink/quqyqp1480879103.jpg/preview">Tequila Sunrise</a></p>
+            <p><a href="cocktail-details.html?par=11000"><img alt="" src="https://www.thecocktaildb.com/images/media/drink/rxtqps1478251029.jpg/preview">Mojito</a></p>
+            <p><a href="cocktail-details.html?par=12528"><img alt="" src="https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg/preview">White Russian</a></p>
+            <p><a href="cocktail-details.html?par=11009"><img alt="" src="https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg/preview">Moscow Mule</a></p>
+            <p><a href="cocktail-details.html?par=11003"><img alt="" src="https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg/preview">Negroni</a></p>
+            <p><a href="cocktail-details.html?par=11006"><img alt="" src="https://www.thecocktaildb.com/images/media/drink/usuuur1439906797.jpg/preview">Daiquiri</a></p>
+            <p><a href="cocktail-details.html?par=11690"><img alt="" src="https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg/preview">Mai Tai</a></p>
+            <p><a href="cocktail-details.html?par=12754"><img alt="" src="https://www.thecocktaildb.com/images/media/drink/lijtw51551455287.jpg/preview">Sex on the Beach</a></p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <script src="script/index.js" defer="defer"></script>
+</body>
+</html>

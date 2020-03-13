@@ -1,0 +1,154 @@
+/* montserrat-300 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/montserrat-v14-latin-300.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat Light'), local('Montserrat-Light'),
+         url('../fonts/montserrat-v14-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v14-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v14-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v14-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v14-latin-300.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  
+  /* montserrat-regular - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v14-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  
+  /* press-start-2p-regular - latin */
+  @font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/press-start-2p-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'),
+         url('../fonts/press-start-2p-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/press-start-2p-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/press-start-2p-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/press-start-2p-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/press-start-2p-v8-latin-regular.svg#PressStart2P') format('svg'); /* Legacy iOS */
+  }
+
+/* patrick-hand-sc-regular - latin */
+@font-face {
+  font-family: 'Patrick Hand SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/patrick-hand-sc-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Patrick Hand SC'), local('PatrickHandSC-Regular'),
+       url('../fonts/patrick-hand-sc-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/patrick-hand-sc-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/patrick-hand-sc-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/patrick-hand-sc-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/patrick-hand-sc-v7-latin-regular.svg#PatrickHandSC') format('svg'); /* Legacy iOS */
+}
+
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/playfair-display-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/playfair-display-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/playfair-display-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/playfair-display-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/playfair-display-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/playfair-display-v20-latin-regular.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+}
+
+  html {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Montserrat,sans-serif;
+  background: #1d1e22;
+  color: #ffdb6a;
+  }
+
+body {
+  margin:0;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+form {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    margin: 0 auto;
+    width: 200px;
+    border: 1px solid #ffdb6a;
+    padding: 30px;
+    font-size: 1rem;
+}
+
+input {
+    text-indent: 5px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #d0d3d9;
+    color: #1d1e22;
+    padding: 4px 0 4px 0; 
+    border: none;
+}
+
+button {
+    background-color: #d0d3d9;
+    border: none;
+    color: #1d1e22;
+    padding: 5px;
+    text-decoration: none;
+    width:100%;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  button:hover {
+      cursor: pointer;
+      transition: all 0.5s linear;
+      background: #ffdb6a;
+
+  }
+
+  form a {
+    border: 1px solid #ffdb6a;
+    color: #ffdb6a;
+    display: block;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    padding: 3px 0 3px 0;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  #image {
+    margin-top: 30px;
+    background-image: url("../img/Cocktail-Bar.png");
+    height: 650px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+
+
+
+
